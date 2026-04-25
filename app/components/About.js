@@ -8,7 +8,7 @@ const About = () => {
                     
                     <div>
                         <div class="flex items-center space-x-3 mb-4">
-                            <img src="https://placehold.co/40x40/793fff/ffffff?text=UB" class="h-10 w-10 rounded-full"></img>
+                            <img src="/logo.png" class="h-10 w-10 rounded-full" alt="Uzaib logo"></img>
                             <span class="text-xl font-bold text-white">Uzaib Bashir</span>
                         </div>
                         <p class="text-gray-400 mb-4">
@@ -19,15 +19,7 @@ const About = () => {
                                 class="text-gray-400 hover:text-[#793fff] transition-colors">
                                 <i class="bi bi-github text-xl"></i>
                             </a>
-                            <a href="#" target="_blank" class="text-gray-400 hover:text-[#793fff] transition-colors">
-                                <i class="bi bi-linkedin text-xl"></i>
-                            </a>
-                            <a href="#" target="_blank" class="text-gray-400 hover:text-[#793fff] transition-colors">
-                                <i class="bi bi-twitter text-xl"></i>
-                            </a>
-                            <a href="#" target="_blank" class="text-gray-400 hover:text-[#793fff] transition-colors">
-                                <i class="bi bi-instagram text-xl"></i>
-                            </a>
+                            <span class="text-gray-500 text-sm">More social links available on request</span>
                         </div>
                     </div>
                     
@@ -57,7 +49,7 @@ const About = () => {
                         <div class="space-y-2 text-gray-400">
                             <div class="flex items-center space-x-2">
                                 <i class="bi bi-envelope"></i>
-                                <span>uzaib.bashir@example.com</span>
+                                <span>Email available on request</span>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <i class="bi bi-geo-alt"></i>

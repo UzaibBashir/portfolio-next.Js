@@ -18,7 +18,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center space-x-2">
               <MdEmail />
-              <a href="mailto:youremail@example.com" className="inline-block  border border-neutral-700 px-4  rounded-full hover:bg-neutral-700 hover:text-white transition">Email</a>
+              <span className="inline-block border border-neutral-700 px-4 rounded-full text-neutral-300">Email available on request</span>
             </div>
             
           </div>
