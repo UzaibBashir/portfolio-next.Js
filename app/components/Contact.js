@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -15,10 +14,6 @@ const Contact = () => {
             <div className="flex items-center space-x-2">
               <FaLinkedin />
               <span>Uzaib Bashir</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <MdEmail />
-              <span className="inline-block border border-neutral-700 px-4 rounded-full text-neutral-300">Email available on request</span>
             </div>
             
           </div>

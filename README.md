@@ -2,6 +2,10 @@
 
 A personal portfolio built with Next.js App Router, React, Tailwind CSS v4, and react-icons.
 
+## Live Site
+
+https://portfolio-next-js-eta-six.vercel.app/
+
 ## Stack
 
 - Next.js 16

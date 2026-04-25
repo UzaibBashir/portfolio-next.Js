@@ -48,10 +48,6 @@ const About = () => {
                         <h3 class="text-white font-bold text-lg mb-4">Contact Info</h3>
                         <div class="space-y-2 text-gray-400">
                             <div class="flex items-center space-x-2">
-                                <i class="bi bi-envelope"></i>
-                                <span>Email available on request</span>
-                            </div>
-                            <div class="flex items-center space-x-2">
                                 <i class="bi bi-geo-alt"></i>
                                 <span>India</span>
                             </div>
