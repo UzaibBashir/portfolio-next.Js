@@ -1,14 +1,23 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image';
 import { IoMdDownload } from "react-icons/io";
+import bg from "../img/bg.png";
 
 const Hero = () => {
   
   return (
     <section id="home" className='pt-24 sm:pt-28'>
-      <div className="relative min-h-[70vh] sm:min-h-[78vh] bg-[url('img/bg.png')] bg-cover bg-center bg-[#21212e]">
-        <div className="absolute inset-0 bg-[#21212e]/30 z-10"></div>
-        <div className="relative z-20 h-full">
+      <div className="relative min-h-[70vh] sm:min-h-[78vh] overflow-hidden bg-[#21212e]">
+        <Image
+          src={bg}
+          alt="Hero background"
+          fill
+          priority
+          className="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-[#21212e]/35 z-10"></div>
+        <div className="relative z-20 h-full min-h-[70vh] sm:min-h-[78vh]">
           <div className="absolute bottom-6 left-4 right-4 sm:right-auto sm:bottom-10 sm:left-10 md:left-12 bg-black/30 backdrop-blur-[1px] px-4 sm:px-6 py-4 rounded-md w-auto sm:w-fit shadow-md">
             <div className="text-white text-xl sm:text-2xl md:text-3xl drop-shadow-md mb-2 leading-tight">
               ٱلسَّلَامُ عَلَيْكُمْ, I'm <span className="text-[#7451f3] font-bold">Uzaib</span>
